@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RSVP</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #f0fff0;
+            padding: 30px;
+        }
+        input {
+            padding: 8px;
+            width: 60px;
+            text-align: center;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Confirm Attendance</h1>
+
+    <form method="POST">
+        <p>Adults: <input type="number" name="adults" min="0"></p>
+        <p>Kids: <input type="number" name="kids" min="0"></p>
+        <p>Elders: <input type="number" name="elders" min="0"></p>
+
+        <button type="submit">Save</button>
+    </form>
+
+</body>
+</html>
